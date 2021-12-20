@@ -13,7 +13,6 @@ var wms_layers = [];
 var features_Italy1250000_1 = format_Italy1250000_1.readFeatures(json_Italy1250000_1, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
 var jsonSource_Italy1250000_1 = new ol.source.Vector({
-    attributions: '<a href=""></a>',
 });
 jsonSource_Italy1250000_1.addFeatures(features_Italy1250000_1);var lyr_Italy1250000_1 = new ol.layer.Vector({
                 type: 'base',
@@ -25,7 +24,6 @@ jsonSource_Italy1250000_1.addFeatures(features_Italy1250000_1);var lyr_Italy1250
 var features_Italy1100000_2 = format_Italy1100000_2.readFeatures(json_Italy1100000_2, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
 var jsonSource_Italy1100000_2 = new ol.source.Vector({
-    attributions: '<a href=""></a>',
 });
 jsonSource_Italy1100000_2.addFeatures(features_Italy1100000_2);var lyr_Italy1100000_2 = new ol.layer.Vector({
                 type: 'base',
@@ -37,7 +35,6 @@ jsonSource_Italy1100000_2.addFeatures(features_Italy1100000_2);var lyr_Italy1100
 var features_Italy150000_3 = format_Italy150000_3.readFeatures(json_Italy150000_3, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
 var jsonSource_Italy150000_3 = new ol.source.Vector({
-    attributions: '<a href=""></a>',
 });
 jsonSource_Italy150000_3.addFeatures(features_Italy150000_3);var lyr_Italy150000_3 = new ol.layer.Vector({
                 type: 'base',
@@ -49,7 +46,6 @@ jsonSource_Italy150000_3.addFeatures(features_Italy150000_3);var lyr_Italy150000
 var features_Italy125000_4 = format_Italy125000_4.readFeatures(json_Italy125000_4, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
 var jsonSource_Italy125000_4 = new ol.source.Vector({
-    attributions: '<a href=""></a>',
 });
 jsonSource_Italy125000_4.addFeatures(features_Italy125000_4);var lyr_Italy125000_4 = new ol.layer.Vector({
                 type: 'base',
